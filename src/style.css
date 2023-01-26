@@ -1,1 +1,153 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+@font-face {
+  font-family: "Bench";
+  src: url("../font/BenchNine-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Sofia";
+  src: url("../font/SofiaSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #C8E4FF;
+  padding: 2em;
+}
+header img {
+  height: 35vh;
+  border-radius: 180px;
+  border: #1B498D solid 2px;
+  box-shadow: 2px 2px #2961B6;
+  margin-left: 3em;
+}
+header h1 {
+  font-family: Montserrat;
+  color: #1B498D;
+  font-size: 60px;
+  margin-top: 0.7em;
+  font-weight: lighter;
+  margin-left: -1em;
+}
+header h2 {
+  font-family: Sofia;
+  color: #2961B6;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-left: -1.5em;
+}
+
+main {
+  font-family: Sofia;
+  display: grid;
+  grid-template-columns: 0.8fr 2.2fr;
+}
+
+#columna1 {
+  padding: 1em;
+  text-align: center;
+  background-color: #EEF7FF;
+}
+#columna1 h2 {
+  color: #2961B6;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 35px;
+  margin-bottom: 0.8em;
+}
+#columna1 p {
+  font-size: 22px;
+}
+
+#perfil, #skills, #cualidades, #informacion {
+  margin-top: 0.5em;
+  padding: 1em;
+}
+
+#skillsImg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#skillsImg img {
+  width: 4em;
+  margin: 0.5em;
+}
+
+#datos {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+}
+#datos img {
+  width: 2em;
+  margin: 0.2em;
+}
+#datos a {
+  text-decoration: none;
+  color: black;
+  font-family: Bench;
+  font-size: 30px;
+  margin-left: 0.5em;
+}
+#datos p {
+  font-family: Bench;
+  font-size: 30px;
+  margin-left: 0.5em;
+}
+
+#columna2 {
+  text-align: left;
+  margin-left: 1em;
+  font-family: Sofia;
+  font-size: 22px;
+  padding: 1em;
+}
+#columna2 h2 {
+  font-family: Montserrat;
+  font-size: 35px;
+  color: #1B498D;
+  margin-top: 0.4em;
+  text-transform: uppercase;
+}
+#columna2 h3 {
+  color: #2961B6;
+  font-weight: lighter;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-top: 0.3em;
+}
+#columna2 h4 {
+  color: #2961B6;
+  font-weight: lighter;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+#columna2 ul {
+  margin-left: 1em;
+}
+
+.linea1 {
+  border-top: 5px solid #1B498D;
+  width: 23.5em;
+  margin-bottom: 0.4em;
+}
+
+.linea2 {
+  border-top: 5px solid #1B498D;
+  width: 10.4em;
+}/*# sourceMappingURL=style.css.map */
