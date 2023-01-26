@@ -27,39 +27,39 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   background-color: #C8E4FF;
-  padding: 2em;
+  padding: 2vw;
 }
 header img {
-  height: 35vh;
+  width: 15vw;
   border-radius: 180px;
   border: #1B498D solid 2px;
   box-shadow: 2px 2px #2961B6;
-  margin-left: 3em;
+  margin-left: 6vw;
 }
 header h1 {
   font-family: Montserrat;
   color: #1B498D;
-  font-size: 60px;
+  font-size: 5vw;
   margin-top: 0.7em;
   font-weight: lighter;
-  margin-left: -1em;
+  margin-left: -5vw;
 }
 header h2 {
   font-family: Sofia;
   color: #2961B6;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: lighter;
-  margin-left: -1.5em;
+  margin-left: -5vw;
 }
 
 main {
   font-family: Sofia;
   display: grid;
-  grid-template-columns: 0.8fr 2.2fr;
+  grid-template-columns: 30vw 70vw;
 }
 
 #columna1 {
-  padding: 1em;
+  padding: 1vw;
   text-align: center;
   background-color: #EEF7FF;
 }
@@ -67,16 +67,16 @@ main {
   color: #2961B6;
   text-transform: uppercase;
   font-weight: lighter;
-  font-size: 35px;
+  font-size: 3vw;
   margin-bottom: 0.8em;
 }
 #columna1 p {
-  font-size: 22px;
+  font-size: 2vw;
 }
 
 #perfil, #skills, #cualidades, #informacion {
   margin-top: 0.5em;
-  padding: 1em;
+  padding: 1vw;
 }
 
 #skillsImg {
@@ -84,8 +84,8 @@ main {
   grid-template-columns: repeat(4, 1fr);
 }
 #skillsImg img {
-  width: 4em;
-  margin: 0.5em;
+  width: 4.5vw;
+  margin: 0.5vw;
 }
 
 #datos {
@@ -94,32 +94,32 @@ main {
   grid-template-columns: 0.5fr 1.5fr;
 }
 #datos img {
-  width: 2em;
-  margin: 0.2em;
+  width: 2.5vw;
+  margin: 0.2vw;
 }
 #datos a {
   text-decoration: none;
   color: black;
   font-family: Bench;
-  font-size: 30px;
-  margin-left: 0.5em;
+  font-size: 2.5vw;
+  margin-left: 0.5vw;
 }
 #datos p {
   font-family: Bench;
-  font-size: 30px;
-  margin-left: 0.5em;
+  font-size: 2.5vw;
+  margin-left: 0.5vw;
 }
 
 #columna2 {
   text-align: left;
-  margin-left: 1em;
+  margin-left: 1vw;
   font-family: Sofia;
-  font-size: 22px;
-  padding: 1em;
+  font-size: 2vw;
+  padding: 0.8vw;
 }
 #columna2 h2 {
   font-family: Montserrat;
-  font-size: 35px;
+  font-size: 3.5vw;
   color: #1B498D;
   margin-top: 0.4em;
   text-transform: uppercase;
@@ -127,27 +127,27 @@ main {
 #columna2 h3 {
   color: #2961B6;
   font-weight: lighter;
-  font-size: 35px;
+  font-size: 3vw;
   text-transform: uppercase;
   margin-top: 0.3em;
 }
 #columna2 h4 {
   color: #2961B6;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 1.8vw;
   text-transform: uppercase;
 }
 #columna2 ul {
-  margin-left: 1em;
+  margin-left: 2vw;
 }
 
 .linea1 {
   border-top: 5px solid #1B498D;
-  width: 23.5em;
+  width: 51.5vw;
   margin-bottom: 0.4em;
 }
 
 .linea2 {
   border-top: 5px solid #1B498D;
-  width: 10.4em;
+  width: 23vw;
 }/*# sourceMappingURL=style.css.map */

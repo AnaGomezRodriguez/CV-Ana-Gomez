@@ -30,132 +30,267 @@ $celesteCl: #EEF7FF;
 $azulOs: #1B498D;
 $azulCl: #2961B6;
 
-header {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: $celesteOs;
-    padding:2em;
-    img {
-        height: 35vh;
-        border-radius: 180px;
-        border: $azulOs solid 2px;
-        box-shadow: 2px 2px $azulCl;
-        margin-left: 3em;
+
+    header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background-color: $celesteOs;
+        padding:2vw;
+        img {
+            width: 15vw;
+            border-radius: 180px;
+            border: $azulOs solid 2px;
+            box-shadow: 2px 2px $azulCl;
+            margin-left: 6vw;
+        }
+        h1{
+            font-family: Montserrat;
+            color:$azulOs;
+            font-size: 5vw;
+            margin-top: 0.7em;
+            font-weight: lighter;
+            margin-left:-5vw;
+        }
+        h2{
+            font-family: Sofia;
+            color: $azulCl;
+            font-size:2.5vw;
+            font-weight: lighter;
+            margin-left:-5vw;
+        }
     }
-    h1{
-        font-family: Montserrat;
-        color:$azulOs;
-        font-size: 60px;
-        margin-top: 0.7em;
-        font-weight: lighter;
-        margin-left:-1em;
-    }
-    h2{
+
+    main{
         font-family: Sofia;
-        color: $azulCl;
-        font-size:40px;
-        font-weight: lighter;
-        margin-left:-1.5em;
+        display:grid;
+        grid-template-columns: 30vw 70vw;
     }
-}
 
-main{
-    font-family: Sofia;
-    display:grid;
-    grid-template-columns: 0.8fr 2.2fr;
-}
+    #columna1{
+        padding: 1vw;
+        text-align: center;
+        background-color: $celesteCl;
+        h2{
+            color: $azulCl;
+            text-transform: uppercase;
+            font-weight: lighter;
+            font-size: 3vw;
+            margin-bottom: 0.8em;
+        }
+        p{
+            font-size: 2vw;
+        } 
+    }
 
-#columna1{
-    padding: 1em;
-    text-align: center;
-    background-color: $celesteCl;
-    h2{
-        color: $azulCl;
-        text-transform: uppercase;
-        font-weight: lighter;
-        font-size: 35px;
-        margin-bottom: 0.8em;
+    #perfil, #skills, #cualidades, #informacion {
+        margin-top: 0.5em;
+        padding: 1vw;
     }
-    p{
-        font-size: 22px;
-    } 
-}
 
-#perfil, #skills, #cualidades, #informacion {
-    margin-top: 0.5em;
-    padding: 1em;
-}
+    #skillsImg {
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        img{
+            width: 4.5vw;
+            margin:0.5vw;
+        }
+    }
 
-#skillsImg {
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    img{
-        width: 4em;
-        margin:0.5em;
+    #datos {
+        text-align: left;
+        display:grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        img{
+            width: 2.5vw;
+            margin: 0.2vw;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+            font-family: Bench;
+            font-size: 2.5vw;
+            margin-left: 0.5vw;
+        }
+        p{
+            font-family: Bench;
+            font-size: 2.5vw;
+            margin-left: 0.5vw;
+        }
     }
-}
 
-#datos {
-    text-align: left;
-    display:grid;
-    grid-template-columns: 0.5fr 1.5fr;
-    img{
-        width: 2em;
-        margin: 0.2em;
+    #columna2 {
+        text-align: left;
+        margin-left: 1vw;
+        font-family: Sofia;
+        font-size: 2vw;
+        padding: 0.8vw;
+        h2{
+            font-family: Montserrat;
+            font-size: 3.5vw;
+            color:$azulOs;
+            margin-top: 0.4em;
+            text-transform: uppercase;
+        }
+        h3{
+            color: $azulCl;
+            font-weight: lighter;
+            font-size: 3vw;
+            text-transform: uppercase;
+            margin-top: 0.3em;
+        }
+        h4{
+            color: $azulCl;
+            font-weight: lighter;
+            font-size: 1.8vw;
+            text-transform: uppercase;
+        }
+        ul{
+            margin-left: 2vw;
+        }
     }
-    a{
-        text-decoration: none;
-        color:black;
-        font-family: Bench;
-        font-size: 30px;
-        margin-left: 0.5em;
-    }
-    p{
-        font-family: Bench;
-        font-size: 30px;
-        margin-left: 0.5em;
-    }
-}
 
-#columna2 {
-    text-align: left;
-    margin-left: 1em;
-    font-family: Sofia;
-    font-size: 22px;
-    padding: 1em;
-    h2{
-        font-family: Montserrat;
-        font-size: 35px;
-        color:$azulOs;
-        margin-top: 0.4em;
-        text-transform: uppercase;
+    .linea1 {
+        border-top: 5px solid $azulOs;
+        width: 51.5vw;
+        margin-bottom: 0.4em;
     }
-    h3{
-        color: $azulCl;
-        font-weight: lighter;
-        font-size: 35px;
-        text-transform: uppercase;
-        margin-top: 0.3em;
-    }
-    h4{
-        color: $azulCl;
-        font-weight: lighter;
-        font-size: 25px;
-        text-transform: uppercase;
-    }
-    ul{
-        margin-left: 1em;
-    }
-}
 
-.linea1 {
-    border-top: 5px solid $azulOs;
-    width: 23.5em;
-    margin-bottom: 0.4em;
-}
+    .linea2 {
+        border-top: 5px solid $azulOs;
+        width: 23vw;
+    }
 
-.linea2 {
-    border-top: 5px solid $azulOs;
-    width: 10.4em;
-  }
+
+// @media (min-width:400px) and (max-width: 700px){
+//     header {
+//         width: 100%;
+//         display: grid;
+//         grid-template-columns: 0.6fr 1.4fr;
+//         background-color: $celesteOs;
+//         padding: 1em;
+        
+//         img {
+//             height: 30vh;
+//             border-radius: 180px;
+//             border: $azulOs solid 2px;
+//             box-shadow: 2px 2px $azulCl;
+//             margin-left: 1em;
+//         }
+//         h1{
+//             font-family: Montserrat;
+//             color:$azulOs;
+//             font-size: 30px;
+//             margin-top: 0.7em;
+//             font-weight: lighter;
+//             margin-left:-1em;
+//         }
+//         h2{
+//             font-family: Sofia;
+//             color: $azulCl;
+//             font-size:25px;
+//             font-weight: lighter;
+//             margin-left:-1.5em;
+//         }
+//     }
+
+//     main{
+//         font-family: Sofia;
+//         display:grid;
+//         grid-template-columns: 0.8fr 2.2fr;
+//     }
+
+//     #columna1{
+//         padding: 0.5em;
+//         text-align: center;
+//         background-color: $celesteCl;
+//         h2{
+//             color: $azulCl;
+//             text-transform: uppercase;
+//             font-weight: lighter;
+//             font-size: 25px;
+//             margin-bottom: 0.8em;
+//         }
+//         p{
+//             font-size: 18px;
+//         } 
+//     }
+
+//     #perfil, #skills, #cualidades, #informacion {
+//         margin-top: 0.5em;
+//         padding: 1em;
+//     }
+
+//     #skillsImg {
+//         display:grid;
+//         grid-template-columns: repeat(4,1fr);
+//         img{
+//             width: 1em;
+//             margin:0.5em;
+//         }
+//     }
+
+//     #datos {
+//         text-align: left;
+//         display:grid;
+//         grid-template-columns: 0.5fr 1.5fr;
+//         img{
+//             width: 2em;
+//             margin: 0.2em;
+//         }
+//         a{
+//             text-decoration: none;
+//             color:black;
+//             font-family: Bench;
+//             font-size: 30px;
+//             margin-left: 0.5em;
+//         }
+//         p{
+//             font-family: Bench;
+//             font-size: 30px;
+//             margin-left: 0.5em;
+//         }
+//     }
+
+//     #columna2 {
+//         text-align: left;
+//         margin-left: 1em;
+//         font-family: Sofia;
+//         font-size: 22px;
+//         padding: 1em;
+//         h2{
+//             font-family: Montserrat;
+//             font-size: 35px;
+//             color:$azulOs;
+//             margin-top: 0.4em;
+//             text-transform: uppercase;
+//         }
+//         h3{
+//             color: $azulCl;
+//             font-weight: lighter;
+//             font-size: 35px;
+//             text-transform: uppercase;
+//             margin-top: 0.3em;
+//         }
+//         h4{
+//             color: $azulCl;
+//             font-weight: lighter;
+//             font-size: 25px;
+//             text-transform: uppercase;
+//         }
+//         ul{
+//             margin-left: 1em;
+//         }
+//     }
+
+//     .linea1 {
+//         border-top: 5px solid $azulOs;
+//         width: 23.5em;
+//         margin-bottom: 0.4em;
+//     }
+
+//     .linea2 {
+//         border-top: 5px solid $azulOs;
+//         width: 10.4em;
+//     }
+// }
